@@ -9,6 +9,7 @@
     "db:create": "npx sequelize db:create",
     "db:drop": "npx sequelize db:drop",
     "db:migrate": "npx sequelize db:migrate",
+    "db:migrate:undo": "npx sequelize db:migrate:undo:all",
     "db:seed": "npx sequelize db:seed",
     "db:reset": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed"
   },
