@@ -10,10 +10,11 @@ async function authentication(req, res, next) {
 
     if (type !== "Bearer") throw { name: "Unauthenticated" };
     const payload = verifyToken(token);
-    const user = await User.findByPk(payload.id);
 
+    const user = await User.findByPk(payload.id);
     if (!user) throw { name: "Unauthenticated" };
-    req.user = { name: user.name, is_admin: user.is_admin };
+
+    req.user = { id: user.id, is_admin: user.is_admin };
 
     next();
   } catch (error) {

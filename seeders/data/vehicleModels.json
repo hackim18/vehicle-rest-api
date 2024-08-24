@@ -8,5 +8,12 @@
   { "name": "Chevrolet Malibu", "type_id": 7 },
   { "name": "Nissan Altima", "type_id": 8 },
   { "name": "Hyundai Elantra", "type_id": 9 },
-  { "name": "Kia Soul", "type_id": 10 }
+  { "name": "Kia Soul", "type_id": 10 },
+  { "name": "Toyota Corolla", "type_id": 3 },
+  { "name": "Ford Focus", "type_id": 4 },
+  { "name": "Honda Civic", "type_id": 6 },
+  { "name": "Chevrolet Cruze", "type_id": 7 },
+  { "name": "Nissan Sentra", "type_id": 8 },
+  { "name": "Hyundai Sonata", "type_id": 9 },
+  { "name": "Kia Optima", "type_id": 10 }
 ]

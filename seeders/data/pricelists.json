@@ -8,5 +8,12 @@
   { "code": "MALIBU-2023", "price": 27000.0, "year_id": 4, "model_id": 7 },
   { "code": "ALTIMA-2022", "price": 29000.0, "year_id": 3, "model_id": 8 },
   { "code": "ELANTRA-2024", "price": 24000.0, "year_id": 5, "model_id": 9 },
-  { "code": "SOUL-2023", "price": 23000.0, "year_id": 4, "model_id": 10 }
+  { "code": "SOUL-2023", "price": 23000.0, "year_id": 4, "model_id": 10 },
+  { "code": "COROLLA-2022", "price": 31000.0, "year_id": 3, "model_id": 11 },
+  { "code": "FOCUS-2023", "price": 25000.0, "year_id": 4, "model_id": 12 },
+  { "code": "CIVIC-2022", "price": 28000.0, "year_id": 3, "model_id": 13 },
+  { "code": "CRUZE-2023", "price": 26000.0, "year_id": 4, "model_id": 14 },
+  { "code": "SENTRA-2022", "price": 30000.0, "year_id": 3, "model_id": 15 },
+  { "code": "SONATA-2024", "price": 33000.0, "year_id": 5, "model_id": 16 },
+  { "code": "OPTIMA-2023", "price": 32000.0, "year_id": 4, "model_id": 17 }
 ]

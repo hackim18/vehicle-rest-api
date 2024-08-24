@@ -2,10 +2,11 @@
   "name": "vehicle-rest-api",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon bin/www",
+    "dev": "node bin/www",
+    "start": "node bin/www",
     "db:create": "npx sequelize db:create",
     "db:drop": "npx sequelize db:drop",
     "db:migrate": "npx sequelize db:migrate",
@@ -15,7 +16,7 @@
     "db:reset": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed"
   },
   "keywords": [],
-  "author": "Khakim",
+  "author": "Hackim18",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -24,6 +25,7 @@
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.12.0",
     "sequelize": "^6.37.3",
-    "sequelize-cli": "^6.6.2"
+    "sequelize-cli": "^6.6.2",
+    "vehicle-rest-api": "file:"
   }
 }
