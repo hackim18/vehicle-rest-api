@@ -1,14 +1,17 @@
 [
   {
     "name": "Alice",
-    "is_admin": true
+    "is_admin": true,
+    "password": "password123"
   },
   {
     "name": "Bob",
-    "is_admin": false
+    "is_admin": false,
+    "password": "password123"
   },
   {
     "name": "Charlie",
-    "is_admin": false
+    "is_admin": false,
+    "password": "password123"
   }
 ]
