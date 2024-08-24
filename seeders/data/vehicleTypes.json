@@ -1,0 +1,12 @@
+[
+  { "name": "Sedan", "brand_id": 1 },
+  { "name": "SUV", "brand_id": 1 },
+  { "name": "Hatchback", "brand_id": 2 },
+  { "name": "Coupe", "brand_id": 3 },
+  { "name": "Convertible", "brand_id": 3 },
+  { "name": "Minivan", "brand_id": 4 },
+  { "name": "Pickup", "brand_id": 5 },
+  { "name": "Station Wagon", "brand_id": 6 },
+  { "name": "Luxury", "brand_id": 7 },
+  { "name": "Electric", "brand_id": 8 }
+]

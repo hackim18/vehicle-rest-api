@@ -1,0 +1,12 @@
+[
+  { "code": "BMWX5-2024", "price": 65000.0, "year_id": 5, "model_id": 1 },
+  { "code": "BMWX3-2023", "price": 55000.0, "year_id": 4, "model_id": 2 },
+  { "code": "CAMRY-2022", "price": 32000.0, "year_id": 3, "model_id": 3 },
+  { "code": "MUSTANG-2023", "price": 43000.0, "year_id": 4, "model_id": 4 },
+  { "code": "F150-2024", "price": 50000.0, "year_id": 5, "model_id": 5 },
+  { "code": "ODYSSEY-2022", "price": 36000.0, "year_id": 3, "model_id": 6 },
+  { "code": "MALIBU-2023", "price": 27000.0, "year_id": 4, "model_id": 7 },
+  { "code": "ALTIMA-2022", "price": 29000.0, "year_id": 3, "model_id": 8 },
+  { "code": "ELANTRA-2024", "price": 24000.0, "year_id": 5, "model_id": 9 },
+  { "code": "SOUL-2023", "price": 23000.0, "year_id": 4, "model_id": 10 }
+]
