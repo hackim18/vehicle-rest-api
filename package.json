@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "db:create": "npx sequelize db:create",
+    "db:drop": "npx sequelize db:drop",
+    "db:migrate": "npx sequelize db:migrate",
+    "db:seed": "npx sequelize db:seed",
+    "db:reset": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed"
   },
   "keywords": [],
   "author": "Khakim",
