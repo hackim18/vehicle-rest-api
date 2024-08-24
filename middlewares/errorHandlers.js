@@ -19,6 +19,10 @@ function errorHandlers(err, req, res, next) {
       break;
     case "SequelizeValidationError":
       statusCode = 400;
+      errorMessage = err.errors[0].message || "Validation error";
+      break;
+    case "SequelizeUniqueConstraintError":
+      statusCode = 400;
       errorMessage = err.message || "Validation error";
       break;
     case "Unauthenticated":

@@ -7,8 +7,48 @@ module.exports = (sequelize, DataTypes) => {
   }
   User.init(
     {
-      name: DataTypes.STRING,
-      is_admin: DataTypes.BOOLEAN,
+      name: {
+        type: DataTypes.STRING,
+        unique: {
+          args: true,
+          msg: "Name must be unique",
+        },
+        allowNull: false,
+        validate: {
+          notEmpty: {
+            msg: "Name is required",
+          },
+          notNull: {
+            msg: "Name is required",
+          },
+        },
+      },
+      is_admin: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+        validate: {
+          isBoolean: {
+            msg: "is_admin must be a boolean",
+          },
+        },
+      },
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+          notEmpty: {
+            msg: "Password is required",
+          },
+          notNull: {
+            msg: "Password is required",
+          },
+          len: {
+            args: [5, 5],
+            msg: "Password must be 5 characters long",
+          },
+        },
+      },
     },
     {
       sequelize,
