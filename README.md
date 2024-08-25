@@ -60,18 +60,10 @@ npm run db:seed
 npm run db:reset
 ```
 
-Here is the list of available database-related commands in the `package.json`:
+### Running the API
 
-```json
-"scripts": {
-   "db:create": "npx sequelize db:create",
-   "db:drop": "npx sequelize db:drop",
-   "db:migrate": "npx sequelize db:migrate",
-   "db:migrate:undo": "npx sequelize db:migrate:undo:all",
-   "db:seed": "npx sequelize db:seed:all",
-   "db:seed:undo": "npx sequelize db:seed:undo:all",
-   "db:reset": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed"
-}
+```bash
+npm run dev
 ```
 
 ## Postman Collection
