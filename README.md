@@ -32,6 +32,10 @@ PORT=3000
 JWT_SECRET=your_jwt_secret
 ```
 
+## Database Schema
+
+![Database Schema](data/schema.png)
+
 ## Database Setup
 
 To set up the PostgreSQL database, you can use the following commands in your terminal:
